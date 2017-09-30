@@ -225,7 +225,7 @@ p {
   transition: ease-in 0.3s; }
 
 #home-section {
-  background-image: url(../img/bg2.jpg);
+  background-image: url(../img/headerhome.jpg);
   background-position: center;
   min-height: 650px;
   background-size: cover; }
@@ -279,7 +279,7 @@ p {
 
 .food-menu {
   margin-top: 70px;
-  background: #16191e; }
+  background: #EB5B33; }
 
 .food-container {
   margin-bottom: 20px; }
@@ -299,15 +299,13 @@ p {
   color: white; }
 
 .menu-link {
-  color: orange; }
-
-.menu-link:hover {
-  text-decoration: none;
-  color: orange;
-  opacity: 0.8; }
+  color: white; }
+  .menu-link:hover {
+    text-decoration: none;
+    color: white; }
 
 .img-con {
-  background-image: url(../img/bg4.jpg);
+  background-image: url(../img/tapasfrontp.jpg);
   background-repeat: no-repeat;
   height: 450px;
   background-size: cover;
@@ -356,7 +354,7 @@ p {
 
 .catering {
   margin-top: 70px;
-  background: #16191e; }
+  background: #fe9001; }
 
 .catering-title {
   font-family: Great Vibes;
@@ -366,7 +364,7 @@ p {
   color: white; }
 
 .img-catering {
-  background-image: url(../img/bg7.jpg);
+  background-image: url(../img/cateringph.jpg);
   background-repeat: no-repeat;
   height: 450px;
   background-size: cover;

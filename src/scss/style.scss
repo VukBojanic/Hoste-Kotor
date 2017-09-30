@@ -9,6 +9,7 @@
 body {
   font-family: 'Montserrat','Great Vibes', cursive, sans-serif;
 }
+
 p {
   font-size: 14px;
   color: #606060;
@@ -44,7 +45,7 @@ p {
 }
 // Header Sekcija
 #home-section {
-  background-image: url(../img/bg2.jpg);
+  background-image: url(../img/headerhome.jpg);
   background-position: center;
   min-height:650px;
   background-size:cover;
@@ -102,7 +103,7 @@ p {
 // Menu Sekcija
 .food-menu {
   margin-top: 70px;
-  background: #16191e;
+  background: #EB5B33;
 }
 .food-container {
   margin-bottom: 20px;
@@ -122,15 +123,14 @@ p {
   color: white;
 }
 .menu-link {
-  color: orange;
+  color: white;
+  &:hover {
+    text-decoration: none;
+    color: white;
 }
-.menu-link:hover {
-  text-decoration: none;
-  color: orange;
-  opacity: 0.8;
 }
 .img-con {
-  background-image: url(../img/bg4.jpg);
+  background-image: url(../img/tapasfrontp.jpg);
   background-repeat: no-repeat;
   height: 450px;
   background-size: cover;
@@ -181,7 +181,7 @@ p {
 }
 .catering {
   margin-top: 70px;
-  background: #16191e;
+  background: #fe9001;
 }
 .catering-title {
   font-family: Great Vibes;
@@ -191,7 +191,7 @@ p {
   color: white;
 }
 .img-catering {
-  background-image: url(../img/bg7.jpg);
+  background-image: url(../img/cateringph.jpg);
   background-repeat: no-repeat;
   height: 450px;
   background-size: cover;
