@@ -202,7 +202,13 @@ p {
   padding-right: 0;
 }
 .catering-container {
-  padding-top: 40px;
+  padding-top: 20px;
+}
+@media screen and(max-width: 768px) {
+  .catering-container {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
 }
 // Footer Sekcija
 #footer {
