@@ -1,0 +1,77 @@
+#about-section {
+  background-image: url(../img/about.jpg);
+  background-position: center;
+  min-height:650px;
+  background-size:cover;
+}
+.about-dark-overlay{
+  background-color:rgba(0,0,0,0.5);
+  position:absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  min-height:650px;
+}
+.welcome-about {
+  padding-top: 250px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+@media screen and (max-width: 428px) {
+  .welcome-about {
+    font-size: 35px;
+    letter-spacing: none;
+  }
+}
+
+.welcome-p {
+  color: #fff;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+.who-we-are {
+  color: #333;
+  background-color: orange;
+}
+.about-intro {
+  margin-top: 70px;
+}
+.restaurant-container {
+  margin-top: 70px;
+}
+.restaurant-container {
+  background-image: url(../img/restaurant2.jpg);
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.restaurant-title {
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 150px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 553px) {
+  .restaurant-title {
+    font-size: 35px;
+  }
+}
+.our-restaurants {
+  margin-top: 70px;
+}
+.newspaper {
+  margin-top: 70px;
+}
+.news-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}

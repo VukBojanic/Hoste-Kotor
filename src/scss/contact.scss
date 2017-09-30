@@ -1,0 +1,24 @@
+#contact-section {
+  background-image: url(../img/contact.jpg);
+  background-position: center;
+  min-height:450px;
+  background-size:cover;
+}
+.contact-dark-overlay{
+  background-color:rgba(0,0,0,0.5);
+  position:absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  min-height:450px;
+}
+.contact-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 180px;
+  color: #fff;
+}
+#contact {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}

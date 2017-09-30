@@ -1,0 +1,39 @@
+#restaurant-section {
+  background-image: url(../img/outside.jpg);
+  background-position: center;
+  min-height: 650px;
+  background-size: cover; }
+
+.restaurant-dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 650px; }
+
+.restaurant-intro {
+  margin-top: 70px; }
+
+.img-sank {
+  background-image: url(../img/pice1.jpg);
+  background-repeat: no-repeat;
+  height: 450px;
+  background-size: cover;
+  width: 100%; }
+
+.menu-title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.menu-container {
+  margin-top: 70px; }
+
+.food-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.food-price {
+  text-align: right !important; }
