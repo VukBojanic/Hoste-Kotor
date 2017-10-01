@@ -73,6 +73,9 @@
   font-size: 40px;
   font-weight: bold; }
 
+#footer-nav {
+  background: #c02c2a !important; }
+
 #restaurant-section {
   background-image: url(../img/outside.jpg);
   background-position: center;
@@ -384,7 +387,7 @@ p {
     padding-bottom: 40px; } }
 
 #footer {
-  background: #0b0d0f;
+  background: #c02c2a;
   padding-top: 50px;
   padding-bottom: 50px; }
 
@@ -401,6 +404,9 @@ p {
   letter-spacing: 3px;
   font-size: 15px;
   color: orange; }
+
+#footer-nav {
+  background: #c02c2a !important; }
 
 .footer-nav {
   text-decoration: none; }
